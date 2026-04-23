@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Account Created</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="container success-card">
+
+    <h2>Account Created Successfully 🎉</h2>
+
+    <div class="info">
+        <p><span>Account Number</span> <b th:text="${account.accountNumber}"></b></p>
+        <p><span>Name</span> <b th:text="${account.name}"></b></p>
+        <p><span>Balance</span> ₹<b th:text="${account.balance}"></b></p>
+    </div>
+
+    <a href="/" class="btn">Back to Home</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+/* ---------- GENERAL ---------- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- CONTAINER ---------- */
+.container {
+    width: 420px;
+    margin: 60px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- HEADINGS ---------- */
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* ---------- TEXT ---------- */
+p {
+    margin: 8px 0;
+    color: #444;
+}
+
+/* ---------- INPUT FIELDS ---------- */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* ---------- BUTTONS ---------- */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #125aa0;
+}
+
+/* ---------- LINKS ---------- */
+a {
+    text-decoration: none;
+    color: #1976d2;
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- MESSAGES ---------- */
+.success {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ---------- TABLE (Transaction History) ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* ---------- DIVIDER ---------- */
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.success-card {
+    border-top: 6px solid #2e7d32;
+}
+
+.success-card h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.info p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.info span {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #1976d2;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #125aa0;
+}

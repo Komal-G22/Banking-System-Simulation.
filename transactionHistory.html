@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Transaction History</title>
+</head>
+<body>
+
+<h2>Transaction History</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Type</th>
+        <th>Amount</th>
+    </tr>
+
+    <tr th:each="tx : ${transactions}">
+        <td th:text="${tx.type}"></td>
+        <td th:text="${tx.amount}"></td>
+    </tr>
+</table>
+
+<br>
+<a href="/dashboard">← Back to Dashboard</a>
+
+</body>
+</html>
